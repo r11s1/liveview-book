@@ -2,8 +2,8 @@ import Config
 
 # Configure your database
 config :pento, Pento.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "ecto",
+  password: "ecto",
   hostname: "localhost",
   database: "pento_dev",
   stacktrace: true,
